@@ -1,0 +1,8 @@
+export const NEXT_PAGE = "next page"
+export const PREV_PAGE = "prev page"
+export const ZERO_PAGE = "zero page"
+export const SAVE_CV_DATA = "save cv data"
+export const IS_LOADED_TOGGLE = "is loaded toggle"
+export const SAVE_PIC_DATA = " save pic data"
+export const SAVE_LOCATION = " save location"
+export const LOCATION_TOUCHED = "user chosed location"

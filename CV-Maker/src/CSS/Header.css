@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+.headerContainer {    
+    height: 100% !important ;
+    background: #232526 !important;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526) !important;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526) !important;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.headerBackground {
+    padding: 10px;
+    text-align: center;
+}
+
+.headerTitle {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 30px;
+    color: aliceblue;
+}

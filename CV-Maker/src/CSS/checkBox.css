@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  input[type=checkbox]::-ms-check {
+    display: none;
+  }
+  input[type=checkbox] {
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid gray;
+    /* Adjusts the position of the checkboxes on the text baseline */ 
+    vertical-align: -2px;
+    /* Set here so that Windows' High-Contrast Mode can override */
+    color: green;
+  }
+  
+  input[type=checkbox]::before {
+    content: "✔";
+    position: absolute;
+    font-size: 1.7em;
+    right: 0;
+    top: -0.3em;
+    visibility: hidden;
+  }
+  
+  input[type=checkbox]:checked::before {
+    /* Use `visibility` instead of `display` to avoid recalculating layout */
+    visibility: visible;
+  }
+  
+  input[type=checkbox]:disabled {
+    border-color: black;
+    background: #ddd;
+    color: gray;
+  }
+  input[type=checkbox]:focus{
+    outline: none !important;
+  }
+
+  .titleBox{
+      font-size: 18px;
+      font-family: 'Raleway', sans-serif;
+      top: -5px;
+      position: relative;
+  } 

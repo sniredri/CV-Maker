@@ -1,0 +1,51 @@
+.buttonNext {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: rgb(49, 48, 48);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 125px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonNext:hover {
+  background-color: green;
+}
+
+.buttonNext:focus {
+  outline: none !important;
+}
+
+.buttonPrev {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: rgb(49, 48, 48);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 125px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonPrev:hover {
+  background-color: red;
+}
+
+.buttonPrev:focus {
+  outline: none !important;
+}
+
+.buttonNext:disabled, .buttonNext[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

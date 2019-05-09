@@ -1,0 +1,96 @@
+.mapContainer{
+    width: 100%;
+    /*Change this to fit your screen size - NOT RESPONSIVE   */
+    height: 92.5%;
+    /*Change this to fit your screen size - NOT RESPONSIVE */
+    /*------------------------------------------------------------------*/
+    border: 2px solid slategray;
+    border-radius: 6px 6px 6px 6px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: #FFEFBA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-box-shadow: 0px 0px 10px 5px #000000;
+    -moz-box-shadow: 0px 0px 10px 5px #000000;
+    box-shadow: 0px 0px 10px 5px #000000;
+}
+
+.mapBox div:first-child {
+    position: relative !important;
+}
+
+.inputSearchContainer{
+    position: absolute;
+    margin-top: 1%;
+    left: 30%;
+    z-index: 2;
+}
+
+.buttonContainer{
+    position: absolute;
+    margin-top: 1%;
+    left: 65%;
+    z-index: 1;
+}
+
+.btnStyle{
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    opacity: 0.6;
+    outline: none;
+}
+  
+.btnStyle:hover {
+    background-color: #e7e7e7;
+    opacity: 0.9;
+}
+
+.inputSearch{
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    width: 95%;
+    opacity: 0.6;
+    font-size: 16.5px;
+}
+
+.inputSearch::placeholder{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.inputSearch:hover{
+    opacity: 1;
+    border: 1px solid black;
+    opacity: 0.9;
+}
+
+.inputSearch:focus{
+    opacity: 1;
+    border: 1px solid black;
+    opacity: 0.9;
+}
+
+.suggestionDiv{
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.suggestion-item:hover{
+    background-color: #FFEFBA;
+}

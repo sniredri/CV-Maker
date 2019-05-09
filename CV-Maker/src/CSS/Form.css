@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Laila');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+.FormContainer {
+  /*---------------------------------------------------------------------*/
+  width: 100%;
+  /*Change this to fit your screen size - NOT RESPONSIVE   */
+  height: 92.5%;
+  /*Change this to fit your screen size - NOT RESPONSIVE */
+  /*------------------------------------------------------------------*/
+  border: 2px solid slategray;
+  border-radius: 6px 6px 6px 6px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background: #FFEFBA;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-box-shadow: 0px 0px 10px 5px #000000;
+  -moz-box-shadow: 0px 0px 10px 5px #000000;
+  box-shadow: 0px 0px 10px 5px #000000;
+}
+
+.resetBtn {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 80px;
+  height: 30px;
+  background: #FFEEEE;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DDEFBB, #FFEEEE);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  float: right;
+  margin: 0 1.5%;
+  -webkit-box-shadow: 0px 0px 11px 1px #000000;
+  -moz-box-shadow: 0px 0px 11px 1px #000000;
+  box-shadow: 0px 0px 11px 1px #000000;
+  font-size: 20px;
+}
+
+.resetBtn:focus {
+  outline: none !important;
+}
+
+.formSubject {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-align: left !important;
+}
+
+.formTitle {
+  font-size: 35px;
+  font-family: 'Laila', serif;
+}
+
+textarea {
+  width: 500px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  border-radius: 20px;
+  font-family: Tahoma, sans-serif;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+textarea:focus {
+  outline: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232526 !important;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526) !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #232526 !important;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526) !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

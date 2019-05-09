@@ -1,0 +1,11 @@
+.radioBox{
+    width: 15px;
+    height: 15px;
+}
+
+.radioTitleBox{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    top: -2px;
+    position: relative;
+} 

@@ -1,0 +1,33 @@
+.inputField {
+    border-radius: 15px;
+    background-color: beige;
+    opacity: 0.9;
+    width: 550px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.inputField:focus {
+    outline: none !important;
+}
+
+.blink {
+    font-size: 15px;
+    color: red;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    25% {
+        opacity: .3;
+    }
+    50% {
+        opacity: .6;
+    }
+    75% {
+        opacity: .8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
